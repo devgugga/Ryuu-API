@@ -1,4 +1,4 @@
-package br.com.ryuu.ryuu;
+package br.com.ryuu.core;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.boot.SpringApplication;
