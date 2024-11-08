@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "./gradlew check"
   },
   "gitmoji": {
     "scopePrompt": false,
@@ -12,26 +12,98 @@
     {
       "emoji": "✨",
       "code": ":sparkles:",
-      "description": "Nova funcionalidade",
+      "description": "Introduz novas funcionalidades",
       "name": "sparkles"
     },
     {
       "emoji": "🐛",
       "code": ":bug:",
-      "description": "Correção de bug",
+      "description": "Corrige um bug",
       "name": "bug"
+    },
+    {
+      "emoji": "✏️",
+      "code": ":pencil2:",
+      "description": "Corrige erros de digitação",
+      "name": "pencil2"
+    },
+    {
+      "emoji": "♻️",
+      "code": ":recycle:",
+      "description": "Refatora o código",
+      "name": "recycle"
     },
     {
       "emoji": "📝",
       "code": ":memo:",
-      "description": "Documentação",
+      "description": "Adiciona ou atualiza documentação",
       "name": "memo"
     },
     {
-      "emoji": "🎨",
-      "code": ":art:",
-      "description": "Estrutura/Formatação",
-      "name": "art"
+      "emoji": "🔧",
+      "code": ":wrench:",
+      "description": "Adiciona ou atualiza arquivos de configuração",
+      "name": "wrench"
+    },
+    {
+      "emoji": "✅",
+      "code": ":white_check_mark:",
+      "description": "Adiciona, atualiza ou passa testes",
+      "name": "white-check-mark"
+    },
+    {
+      "emoji": "🔒",
+      "code": ":lock:",
+      "description": "Corrige problemas de segurança",
+      "name": "lock"
+    },
+    {
+      "emoji": "⚡️",
+      "code": ":zap:",
+      "description": "Melhora performance",
+      "name": "zap"
+    },
+    {
+      "emoji": "🗃️",
+      "code": ":card_file_box:",
+      "description": "Alterações relacionadas ao banco de dados",
+      "name": "card-file-box"
+    },
+    {
+      "emoji": "🔥",
+      "code": ":fire:",
+      "description": "Remove código ou arquivos",
+      "name": "fire"
+    },
+    {
+      "emoji": "🚑",
+      "code": ":ambulance:",
+      "description": "Hotfix crítico",
+      "name": "ambulance"
+    },
+    {
+      "emoji": "➕",
+      "code": ":heavy_plus_sign:",
+      "description": "Adiciona dependência",
+      "name": "heavy-plus-sign"
+    },
+    {
+      "emoji": "➖",
+      "code": ":heavy_minus_sign:",
+      "description": "Remove dependência",
+      "name": "heavy-minus-sign"
+    },
+    {
+      "emoji": "🔀",
+      "code": ":twisted_rightwards_arrows:",
+      "description": "Merge de branches",
+      "name": "twisted-rightwards-arrows"
+    },
+    {
+      "emoji": "📦",
+      "code": ":package:",
+      "description": "Atualiza compiled files ou packages",
+      "name": "package"
     }
   ]
 }
