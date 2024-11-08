@@ -20,7 +20,7 @@ Backend da plataforma Ryuu, desenvolvido com Spring Boot 3.x e Gradle.
 
 Junte-se à nossa comunidade no Discord para discutir o projeto, tirar dúvidas ou contribuir!
 
-[![Discord Banner](https://discord.com/api/guilds/1304459186423201853/widget.png?style=banner2)](https://discord.gg/8RtfsTGHxk)
+[![Discord Banner](https://discord.com/api/guilds/1304459186423201853/widget.png?style=banner2)](https://discord.gg/XPhqvSNMNA)
 
 ## 🚀 Tecnologias
 
