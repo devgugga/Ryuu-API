@@ -7,7 +7,7 @@
 [![Issues](https://img.shields.io/github/issues/devgugga/Ryuu-Api)](https://github.com/devgugga/Ryuu-Api)
 [![Pull Requests](https://img.shields.io/github/issues-pr/devgugga/Ryuu-Api)](https://github.com/devgugga/Ryuu-Api/pulls)
 [![Commits](https://img.shields.io/github/commit-activity/m/devgugga/Ryuu-Api)](https://github.com/devgugga/Ryuu-Api/commits)
-[![Discord](https://img.shields.io/discord/1304459186423201853?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/8RtfsTGHxk)
+[![Discord](https://img.shields.io/discord/1304459186423201853?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/XPhqvSNMNA)
 
 
 </div>
