@@ -1,0 +1,37 @@
+{
+  "hooks": {
+    "pre-commit": "lint-staged"
+  },
+  "gitmoji": {
+    "scopePrompt": false,
+    "autoAdd": false,
+    "signedCommit": false,
+    "emojiFormat": "emoji"
+  },
+  "gitmojis": [
+    {
+      "emoji": "✨",
+      "code": ":sparkles:",
+      "description": "Nova funcionalidade",
+      "name": "sparkles"
+    },
+    {
+      "emoji": "🐛",
+      "code": ":bug:",
+      "description": "Correção de bug",
+      "name": "bug"
+    },
+    {
+      "emoji": "📝",
+      "code": ":memo:",
+      "description": "Documentação",
+      "name": "memo"
+    },
+    {
+      "emoji": "🎨",
+      "code": ":art:",
+      "description": "Estrutura/Formatação",
+      "name": "art"
+    }
+  ]
+}

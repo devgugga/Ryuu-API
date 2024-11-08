@@ -1,0 +1,10 @@
+#!/bin/bash
+
+commit_msg=$(cat "$1")
+gitmoji_pattern="^(💫|✨|🐛|📝|♻️|🎨|⚡️|🔥|⬆️|⬇️|➕|➖|✅|💚|👷|💄|🚸|♿️|🏗️|🗃️|🔒️|🔧|📱|💡|🚧).*$"
+
+if ! [[ $commit_msg =~ $gitmoji_pattern ]]; then
+    echo "❌ Commit message must start with a gitmoji!"
+    echo "👉 Use 'gitmoji -c' to commit"
+    exit 1
+fi
