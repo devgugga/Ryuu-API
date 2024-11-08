@@ -1,0 +1,11 @@
+CREATE INDEX idx_works_title ON works (title);
+CREATE INDEX idx_works_type_status ON works (type, status);
+CREATE INDEX idx_works_views ON works (views DESC);
+CREATE INDEX idx_chapters_work_number ON chapters (work_id, chapter_number);
+CREATE INDEX idx_chapters_translator ON chapters (translator_id);
+CREATE INDEX idx_reading_progress_user ON reading_progress (user_id, updated_at);
+CREATE INDEX idx_view_logs_content ON view_logs (content_type, content_id, viewed_at);
+CREATE INDEX idx_comments_work_chapter ON comments (work_id, chapter_id, created_at);
+CREATE INDEX idx_reports_status ON reports (status, created_at);
+CREATE INDEX idx_team_members_user ON team_members (user_id);
+CREATE INDEX idx_work_tags_tag ON work_tags (tag_id);
